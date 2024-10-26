@@ -1,8 +1,6 @@
 import os
 from llama_parse import LlamaParse
 
-os.environ["LLAMA_CLOUD_API_KEY"] = "llx-X6eyftaZPqtXgYDxBVrgG4jKkt4C6W07kyMvO9D1OtK8U4ol"
-
 documento = LlamaParse(result_type="markdown"
                        , language="pt"
                        , parsing_instruction = "This file contains text and tables. I would like to get only the tables from the file."
